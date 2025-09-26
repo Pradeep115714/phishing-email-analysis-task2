@@ -1,0 +1,19 @@
+ Repository Contents
+- **`phishing_writingmate_report.pdf`** – Detailed report including email overview, header analysis, content evaluation, and recommendations.  
+- **`phishing_writingmate_headers.txt`** – Full raw email headers for technical inspection.  
+- **`phishing_writingmate_screenshot.png`** – Screenshot of the email showing suspicious elements.
+
+## How to Use
+1. **Read the PDF report** for a full analysis of the phishing email.  
+2. **Check the headers.txt file** to see the email’s routing, origin, and authentication results (SPF, DKIM, DMARC).  
+3. **Review the screenshot** to visually identify red flags like urgent requests, generic greetings, and suspicious links.
+
+## Key Findings
+- The email’s sender address does not match the official WritingMate domain.  
+- SPF, DKIM, and DMARC checks failed, indicating possible spoofing.  
+- The content contains urgent language, suspicious links, and generic greetings, which are common phishing tactics.
+
+## Recommendations
+- Do not click on links or download attachments from this email.  
+- Verify sender authenticity before responding.  
+- Report suspicious emails to IT or security teams.
